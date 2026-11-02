@@ -1,0 +1,20 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "description": "Tutorial on backend",
+  "homepage": "https://github.com/lukan-lawslaf/Backend-Tutorial#readme",
+  "bugs": {
+    "url": "https://github.com/lukan-lawslaf/Backend-Tutorial/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukan-lawslaf/Backend-Tutorial.git"
+  },
+  "license": "ISC",
+  "author": "Nakul",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
