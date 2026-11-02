@@ -1,5 +1,6 @@
 import express from "express";
 import userRouter from "./routes/user.route.js";
+import postRouter from "./routes/post.route.js";
 
 const app = express();
 
@@ -12,5 +13,6 @@ app.get("/", (req, res) => {
 
 // All routes in userRouter begin with this path.
 app.use("/api/v1/users", userRouter);
+app.use("/api/v1/posts", postRouter);
 
 export default app;
